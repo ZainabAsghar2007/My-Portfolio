@@ -1,12 +1,13 @@
 import { ThemeProvider, createTheme, CssBaseline, Box } from '@mui/material';
 import Navbar from './components/Navbar';
+import Hero from './sections/Hero';
 
 const theme = createTheme({
   palette: {
     mode: 'light',
     background: {
-      default: '#FBF3E6',   // light cream (page)
-      paper: '#FFFAF3',     // cards
+      default: '#FBF3E6',   
+      paper: '#FFFAF3',    
     },
     primary: {
       main: '#4A1240',
@@ -27,6 +28,7 @@ function App() {
       <CssBaseline />
       <Box sx={{ width: '100%', minHeight: '100vh', bgcolor: 'background.default' }}>
         <Navbar />
+        <Hero />
       </Box>
     </ThemeProvider>
   );
