@@ -3,6 +3,7 @@ import Navbar from './components/Navbar';
 import Hero from './sections/Hero';
 import About from './sections/About';
 import Skills from './sections/Skills'
+import Projects from './sections/projects123';
 
 const theme = createTheme({
   palette: {
@@ -33,6 +34,7 @@ function App() {
         <Hero />
         <About />
         <Skills />
+        <Projects />
       </Box>
     </ThemeProvider>
   );
