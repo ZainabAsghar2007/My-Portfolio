@@ -80,7 +80,8 @@ function BrandLogo({ onSelect }) {
             fontSize: '1.02rem',
             color: 'text.primary',
             letterSpacing: '0.01em',
-            lineHeight: 1,
+            lineHeight: 1.25,
+            pt: '2px',
           }}
         >
           Zainab Asghar

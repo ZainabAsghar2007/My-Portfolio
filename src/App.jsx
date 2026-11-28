@@ -2,6 +2,7 @@ import { ThemeProvider, createTheme, CssBaseline, Box } from '@mui/material';
 import Navbar from './components/Navbar';
 import Hero from './sections/Hero';
 import About from './sections/About';
+import Skills from './sections/Skills'
 
 const theme = createTheme({
   palette: {
@@ -31,6 +32,7 @@ function App() {
         <Navbar />
         <Hero />
         <About />
+        <Skills />
       </Box>
     </ThemeProvider>
   );

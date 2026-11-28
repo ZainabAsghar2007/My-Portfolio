@@ -62,13 +62,17 @@ function Hero() {
               disableElevation
               sx={{
                 bgcolor: '#381932',
-                color: '#FFF8F0',
+                color: '#FFFAF3',
                 textTransform: 'none',
                 fontWeight: 600,
                 px: 3.2,
                 py: 1.8,
                 borderRadius: 3,
-                '&:hover': { bgcolor: '#261022' },
+                '&:hover': {  
+                  backgroundColor: '#4A1240',
+                  boxShadow: '0 6px 16px rgba(56, 25, 50, 0.22)',
+                  transform: 'translateY(-2px)', 
+                },
               }}
             >
               View My Work
@@ -80,18 +84,19 @@ function Hero() {
               href='#contact'
               
               sx={{
-                color: '#381932',
-                bgcolor: '#FFF8F0',
-                borderColor: 'rgba(56, 25, 50, 0.24)',
+                color: '#281726',
+                backgroundColor: '#FAF7ED',
+                borderColor: 'rgba(56, 25, 50, 0.25)',
                 textTransform: 'none',
                 fontWeight: 600,
                 px: 3.2,
                 py: 1.8,
                 borderRadius: 3,
                 '&:hover': {
-                  borderColor: '#381932',
-                  bgcolor: 'rgba(56, 25, 50, 0.05)',
-              },
+                  backgroundColor: 'rgba(74, 18, 64, 0.06)',
+                  borderColor: '#4A1240',
+                  transform: 'translateY(-2px)',
+                },
               }}
             >
               Get in Touch

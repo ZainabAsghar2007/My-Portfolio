@@ -33,7 +33,7 @@ function About() {
                     backgroundColor: '#4A1240',
                     borderRadius: '10px',
                   }}></Box>
-                </Box>
+               </Box>
 
                 <Typography 
                     sx={{
@@ -73,6 +73,12 @@ function About() {
                       border: '1px solid #E5DEC9',
                       borderLeft: '5px solid #4A1240',
                       borderRadius: 2,
+                      transition: 'border-color 0.25s ease, box-shadow 0.25s ease, transform 0.25s ease',
+                      '&:hover': {
+                        borderColor: '#4A1240',
+                        boxShadow: '0 8px 24px rgba(56, 25, 50, 0.09)',
+                        transform: 'translateY(-3px)',
+                      },
                     }}
                   >
                     <CardContent sx={{p: 3.5}}>
@@ -95,12 +101,18 @@ function About() {
                       border: '1px solid #E5DEC9',
                       borderLeft: '5px solid #4A1240',
                       borderRadius: 2,
+                      transition: 'border-color 0.25s ease, box-shadow 0.25s ease, transform 0.25s ease',
+                      '&:hover': {
+                        borderColor: '#4A1240',
+                        boxShadow: '0 8px 24px rgba(56, 25, 50, 0.09)',
+                        transform: 'translateY(-3px)',
+                      },
                     }}
                   >
                     <CardContent sx={{p: 3.5}}>
                       <Stack direction="row" alignItems="center" spacing={1.5} sx={{ mb: 1 }}>
                         <AutoStoriesIcon sx={{ color: '#4A1240', fontSize: 28 }} />
-                        <Typography variant="h6" sx={{ fontWeight: 700, color: '#281726' }}>
+                        <Typography variant="h5" sx={{ fontWeight: 700, color: '#281726' }}>
                           Currently Learning
                         </Typography>
                       </Stack>
