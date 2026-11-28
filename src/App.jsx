@@ -1,6 +1,7 @@
 import { ThemeProvider, createTheme, CssBaseline, Box } from '@mui/material';
 import Navbar from './components/Navbar';
 import Hero from './sections/Hero';
+import About from './sections/About';
 
 const theme = createTheme({
   palette: {
@@ -29,6 +30,7 @@ function App() {
       <Box sx={{ width: '100%', minHeight: '100vh', bgcolor: 'background.default' }}>
         <Navbar />
         <Hero />
+        <About />
       </Box>
     </ThemeProvider>
   );
